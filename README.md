@@ -1,2 +1,2 @@
 # BalanceWeekly
-HTML, CSS, Javascript Bill balance book for weekly paychecks
+HTML, CSS, Javascript Bill balance system for weekly paychecks

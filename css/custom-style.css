@@ -2,6 +2,9 @@ body{
     background-color: seagreen;
 }
 
+/*
+* Left Top Nav Bar
+ */
 .nav-bar{
     list-style-type: none;
     position: fixed;
@@ -30,16 +33,56 @@ body{
     background-color: #111;
 }
 
+/* 
+* Right top Nav Bar 
+*/
+.nav-bar-right{
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-bar-right li{
+    float: left;
+}
+
+.nav-bar-right li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*
+* Both Sides Of Navbar
+*/
+.nav-bar li a:hover{
+    background-color: #111;
+}
+
 .nav-active{
     background-color: seagreen;
 }
 
+/*
+* Footer
+*/
 .footer-bar{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #333;
+    /*
+    ! white smoke not being used in current setting may remove it
+    */
     color: whitesmoke;
     text-align: center;
     padding: 8px;
